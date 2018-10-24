@@ -1,0 +1,21 @@
+{
+    "name": "promise/hoover",
+    "require": {
+        "symfony/http-kernel": "^4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Promise\\Hoover\\": "src/",
+            "Promise\\Hoover\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Promise Ekoriko",
+            "email": "pekoriko@live.com"
+        }
+    ]
+}
